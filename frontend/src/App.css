@@ -167,7 +167,10 @@
   }
   thead {}
   tbody {}
-  tfoot {}
+  tfoot {
+    border: 1px solid var(--light-pistachio);
+    padding: 10px;
+  }
   tr {}
     tr:nth-child(even) {}
   th {}
@@ -185,6 +188,18 @@
   tr td {
     border: 1px solid var(--light-pistachio);
     padding: 10px;
+  }
+
+  .clicker {
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .clicker i:hover {
+    cursor: pointer;
+    color: var(--forest-green);
   }
 
   colgroup {}

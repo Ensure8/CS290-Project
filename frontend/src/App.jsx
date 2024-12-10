@@ -10,6 +10,7 @@ import Navigation from './modules/Navigation.jsx';
 import TopicsPage from './modules/TopicsPage.jsx';
 import './App.css';
 import { AiFillMeh } from "react-icons/ai";
+import products from './data/products.js';
 
 function App() {
 
@@ -24,11 +25,11 @@ function App() {
             <section>
                 <Routes>
                     <Route path="/" element={<HomePage />}></Route>
+                    <Route path="/topics" element={<TopicsPage />}></Route>
                     <Route path="/gallery" element={<GalleryPage />}></Route>
                     <Route path="/contact" element={<ContactPage />}></Route>
-                    <Route path="/order" element={<OrderPage />}></Route>
+                    <Route path="/order" element={<OrderPage products={products}/>}></Route>
                     <Route path="/movie" element={<MoviePage />}></Route>
-                    <Route path="/topics" element={<TopicsPage />}></Route>
                 </Routes>
             </section>
         </main>

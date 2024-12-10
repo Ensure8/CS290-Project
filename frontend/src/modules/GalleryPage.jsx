@@ -19,6 +19,7 @@ function GalleryPage(){
                     images.map((image) => 
                         <figure>
                             <img src={image} alt="" title="" />
+                            {/* <figcaption></figcaption> */}
                         </figure>
                     )
                 }

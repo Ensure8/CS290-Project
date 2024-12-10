@@ -2,7 +2,7 @@ function TopicsPage(){
     return (
         <>
             <h2>Web Dev Concepts</h2>
-            <nav class="local">
+            <nav className="local">
                 <a href="#webServers">Web Servers</a>
                 <a href="#frontend">Frontend Design</a>
                 <a href="#optImages">Optimized Images</a>

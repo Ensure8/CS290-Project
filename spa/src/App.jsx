@@ -8,15 +8,15 @@ import OrderPage from './modules/OrderPage.jsx';
 import MoviePage from './modules/movies/MoviePage.jsx';
 import Navigation from './modules/Navigation.jsx';
 import TopicsPage from './modules/TopicsPage.jsx';
-
+import './App.css';
+import { AiFillMeh } from "react-icons/ai";
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
     <header>
-      <h1>Daniel Guardado</h1>
+      <h1>Daniel <AiFillMeh /> Guardado</h1>
     </header>
     <Router>
       <Navigation />

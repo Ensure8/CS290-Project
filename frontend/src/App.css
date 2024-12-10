@@ -78,12 +78,13 @@
     text-decoration:none;
     background-color: var(--very-light-pistachio);
     padding: 1%;
+    font-size: 150%;
   }
   nav a {
     text-decoration:none;
     color: var(--light-pistachio);
     background-color: var(--dark-avocado);
-    padding: 2%;
+    padding: 1%;
     margin: 1px;
     border-radius: 5px;
   }

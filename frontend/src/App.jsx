@@ -5,7 +5,7 @@ import HomePage from './modules/HomePage.jsx';
 import GalleryPage from './modules/GalleryPage.jsx';
 import ContactPage from './modules/ContactPage.jsx';
 import OrderPage from './modules/OrderPage.jsx';
-import MoviePage from './modules/movies/MoviePage.jsx';
+import GamesPage from './modules/GamesPage.jsx';
 import Navigation from './modules/Navigation.jsx';
 import TopicsPage from './modules/TopicsPage.jsx';
 import './App.css';
@@ -29,7 +29,7 @@ function App() {
                     <Route path="/gallery" element={<GalleryPage />}></Route>
                     <Route path="/contact" element={<ContactPage />}></Route>
                     <Route path="/order" element={<OrderPage products={products}/>}></Route>
-                    <Route path="/movie" element={<MoviePage />}></Route>
+                    <Route path="/games" element={<GamesPage />}></Route>
                 </Routes>
             </section>
         </main>

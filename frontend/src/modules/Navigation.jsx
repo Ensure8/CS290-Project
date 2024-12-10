@@ -9,7 +9,7 @@ function Navigation(){
             <Link to="/gallery">Gallery</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/order">Order</Link>
-            <Link to="/movie">Movies</Link>
+            <Link to="/games">Games</Link>
           </nav>
         </>
     );

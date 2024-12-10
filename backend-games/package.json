@@ -2,7 +2,7 @@
   "name": "games-starter-backend",
   "version": "2023",
   "description": "",
-  "main": "",
+  "main": "games-controller.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon games-controller.mjs"

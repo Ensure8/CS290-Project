@@ -7,7 +7,6 @@ function OrderRow ({product}){
             <td>{product.product}</td>
             <td>{product.price.toLocaleString('en-US',{style: 'currency',currency: 'USD', minimumFractionDigits: 2})}</td>
             <td><OrderQuantity product={product}/></td>
-            <td>{product.subtotal}</td>
         </tr>
     );
 }

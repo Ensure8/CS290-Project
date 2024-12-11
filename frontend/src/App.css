@@ -203,6 +203,10 @@
     color: var(--forest-green);
   }
 
+  #games td{
+    text-align: center;
+  }
+
   colgroup {}
   data {}
   datalist {}

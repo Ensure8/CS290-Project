@@ -14,8 +14,8 @@ function GamesPage({setGame}){
         setGames(games);
     }
 
-    const onEditGame = async () => {
-        setGames(games);
+    const onEditGame = async (game) => {
+        setGame(game);
         redirect("/update");
     }
 
@@ -25,6 +25,7 @@ function GamesPage({setGame}){
              const getResponse = await fetch('/games');
              const games = await getResponse.json();
              setGames(games);
+             alert("Game was deleted.");
         } else {
              console.error(`Deleted the game from the database = ${_id}, status code = 
              ${response.status}`)

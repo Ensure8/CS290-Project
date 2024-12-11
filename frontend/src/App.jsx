@@ -12,6 +12,7 @@ import products from './data/products.js';
 
 import GamesPage from './games/GamesPage.jsx';
 import GameAdd from './games/GameAdd.jsx';
+import GameEdit from './games/GameEdit.jsx';
 
 function App() {
   const [game, setGame] = useState([]);
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/order" element={<OrderPage products={products}/>}></Route>
                     <Route path="/gamesPage" element={<GamesPage setGame={setGame}/>}></Route>
                     <Route path="/create" element={<GameAdd />}></Route>
+                    <Route path="/update" element={<GameEdit gameToEdit={game}/>}></Route>
                 </Routes>
             </section>
         </main>

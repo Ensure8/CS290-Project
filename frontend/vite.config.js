@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     proxy: {
     '/games': { target: 'http://localhost:3000' } 
-    }
+    },
   }
 })

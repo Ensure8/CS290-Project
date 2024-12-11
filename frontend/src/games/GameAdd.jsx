@@ -33,7 +33,7 @@ export const GameAdd = () => {
         <>
         <h2>Add a Game</h2>
         <article>
-            <p>This page can be used to add a game to the games collection.</p>
+            <p>Here, you can add a game to the collection.</p>
             <form id="addGameForm" onSubmit={addGame} >
             <table>
                 <caption>What game are you adding?</caption>
@@ -61,7 +61,8 @@ export const GameAdd = () => {
                     </td>
                     <td>
                         <label htmlFor="submit">
-                        <button type="submit" id="submit">Add Game</button></label>
+                            <button type="submit" id="submit">Add Game</button>
+                        </label>
                     </td>
                 </tr>
             </tbody>

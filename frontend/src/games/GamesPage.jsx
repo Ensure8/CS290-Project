@@ -26,7 +26,6 @@ function GamesPage({setGame}){
              const getResponse = await fetch('/games');
              const games = await getResponse.json();
              setGames(games);
-             alert("Game was deleted.");
         } else {
              console.error(`Deleted the game from the database = ${_id}, status code = 
              ${response.status}`)
@@ -41,7 +40,7 @@ function GamesPage({setGame}){
             <article>
                 <p>This page gives a list of video games.</p>
         
-                <Link to="/create" id="addGameLink">Add <IoAddCircle size={25}/></Link>
+                <Link to="/create" id="addGameLink"><IoAddCircle size={40}/></Link>
 
                 <GameList
                     games={games}

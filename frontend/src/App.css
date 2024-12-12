@@ -218,15 +218,12 @@
 
   #addGameLink {
     display: flex;
-    width: 10%;
+    width: 5%;
     background-color: var(--forest-green);
     color: var(--light-pistachio);
-    text-decoration: none;    
     border: 2px solid var(--dark-brown);
     border-radius: 5px;
     justify-content: center;
-    font-size: 125%;    
-    gap: 5px;
   }
 
   #addGameLink:active, #submit:active {

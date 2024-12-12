@@ -61,7 +61,7 @@ export const GameAdd = () => {
                     </td>
                     <td>
                         <label htmlFor="submit">
-                            <button type="submit" id="submit">Add Game</button>
+                            <button type="submit" id="submit">Add</button>
                         </label>
                     </td>
                 </tr>

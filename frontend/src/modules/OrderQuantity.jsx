@@ -1,8 +1,8 @@
 import {useState} from "react";
 import { IoChevronUp, IoChevronDown } from "react-icons/io5";
 
-function OrderQuantity ({product}){
-    const [quantity, setQuantity] = useState(0);
+function OrderQuantity ({product, quantity, setQuantity}){
+    
     
     const increment = () => {
         if (quantity < 10) {
@@ -18,9 +18,9 @@ function OrderQuantity ({product}){
 
     return (
         <div className="clicker">
-            <i><IoChevronDown onClick={decrement}/></i>
+            <i><IoChevronDown size={25} onClick={decrement}/></i>
                 {quantity}
-            <i><IoChevronUp onClick={increment}/></i>
+            <i><IoChevronUp size={25} onClick={increment}/></i>
         </div>
     );
 }

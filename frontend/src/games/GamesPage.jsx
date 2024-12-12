@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import GameList from './GameList';
 import { Link } from 'react-router-dom';
+import { IoAddCircle } from "react-icons/io5";
 
 
 function GamesPage({setGame}){
@@ -36,11 +37,11 @@ function GamesPage({setGame}){
 
     return (
         <>
-            <h2>Popular Games</h2>
+            <h2>Games</h2>
             <article>
-                <p>This page gives a list of popular retro video games.</p>
-
-                <Link to="/create">Add Game</Link>
+                <p>This page gives a list of video games.</p>
+        
+                <Link to="/create" id="addGameLink">Add <IoAddCircle size={25}/></Link>
 
                 <GameList
                     games={games}

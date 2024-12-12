@@ -3,7 +3,7 @@ import Game from './Game.jsx';
 function GameList ({games, onEdit, onDelete}){
     return (
         <>
-            <table id="games">
+            <table id="gamesTable">
             <caption>Add and Edit Games</caption>
             <thead>
                 <tr>
